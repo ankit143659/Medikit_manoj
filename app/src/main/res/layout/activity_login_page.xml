@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="#3A55A0">
+    android:background="@color/white">
 
     <ImageView
         android:id="@+id/imageViewHeader"
@@ -13,7 +13,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="20dp"
         android:scaleType="fitXY"
-        android:src="@drawable/resumr" />
+        android:src="@drawable/logo2" />
 
     <TextView
         android:id="@+id/textViewWelcome"
@@ -23,7 +23,7 @@
         android:layout_marginTop="10dp"
         android:layout_below="@id/imageViewHeader"
         android:text="𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐁𝐚𝐜𝐤"
-        android:textColor="#FFFFFF"
+        android:textColor="#0480F7"
         android:textSize="32sp"
         android:textStyle="bold" />
 
@@ -34,7 +34,7 @@
         android:layout_below="@id/textViewWelcome"
         android:layout_centerHorizontal="true"
         android:text="𝐋𝐨𝐠𝐢𝐧 𝐭𝐨 𝐲𝐨𝐮𝐫 𝐚𝐜𝐜𝐨𝐮𝐧𝐭"
-        android:textColor="#FFFFFF"
+        android:textColor="#0480F7"
         android:textSize="16sp" />
     <TextView
         android:id="@+id/usernotexit"
@@ -96,7 +96,7 @@
         android:layout_alignParentStart="true"
         android:layout_marginStart="50dp"
         android:text="Remember me"
-        android:textColor="#AEAFB1" />
+        android:textColor="@color/black" />
 
     <TextView
         android:id="@+id/textViewForgotPassword"
@@ -107,7 +107,7 @@
         android:layout_marginTop="10dp"
         android:layout_marginEnd="50dp"
         android:text="Forgot Password?"
-        android:textColor="#B3B3B3"
+        android:textColor="@color/black"
         android:textSize="14sp" />
 
     <Button
@@ -120,7 +120,7 @@
         android:backgroundTint="#032E63"
         android:text="LOGIN"
         android:onClick="log"
-        android:textColor="#D7D0D0"
+        android:textColor="@color/white"
         android:textSize="18sp" />
 
     <TextView
@@ -131,7 +131,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:text="Don't have an account? "
-        android:textColor="#B3B3B3"
+        android:textColor="@color/black"
         android:textSize="16sp"
         tools:ignore="HardcodedText" />
 
@@ -146,7 +146,7 @@
         android:minHeight="48dp"
         android:onClick="signin"
         android:text="Sign in"
-        android:textColor="#FFFFFF"
+        android:textColor="#0480F7"
         android:textSize="14sp" />
 
 </RelativeLayout>

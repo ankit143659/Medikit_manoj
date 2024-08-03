@@ -2,30 +2,30 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#3A55A0">
+    android:background="@color/white">
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="450dp"
-        android:src="@drawable/b" />
+        android:layout_height="430dp"
+        android:src="@drawable/medi3" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="𝙍𝙀𝙎𝙐𝙈𝙀 𝘽𝙐𝙄𝙇𝘿𝙀𝙍"
+        android:text="𝐌𝐞𝐝𝐢𝐤𝐢𝐭"
         android:layout_marginTop="20dp"
-        android:textSize="30dp"
+        android:textSize="40dp"
         android:gravity="center"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="𝟏.𝐂𝐡𝐨𝐨𝐬𝐞 𝐘𝐨𝐮𝐫 𝐒𝐭𝐲𝐥𝐞 \n𝟐.𝐂𝐡𝐨𝐨𝐬𝐞 𝐚 𝐩𝐫𝐨𝐟𝐞𝐬𝐬𝐢𝐨𝐧𝐚𝐥 𝐭𝐞𝐦𝐩𝐥𝐚𝐭𝐞 𝐭𝐡𝐚𝐭 𝐫𝐞𝐟𝐥𝐞𝐜𝐭𝐬 𝐲𝐨𝐮"
+        android:text="𝟏.𝐒𝐞𝐚𝐫𝐜𝐡 𝐟𝐨𝐫 𝐲𝐨𝐮𝐫 𝐝𝐢𝐬𝐞𝐚𝐬𝐞 \n𝟐.𝐅𝐢𝐧𝐝 𝐛𝐞𝐬𝐭 𝐌𝐞𝐝𝐢𝐜𝐢𝐧𝐞𝐬 𝐭𝐨 𝐜𝐮𝐫𝐞 𝐢𝐭"
         android:textSize="18dp"
         android:layout_marginTop="10dp"
         android:layout_marginLeft="10dp"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:padding="20dp"/>
     <TextView
         android:layout_width="match_parent"
@@ -36,7 +36,8 @@
         android:background="@drawable/swipebg"
         android:gravity="center"
         android:text="Swipe Next>>"
-        android:textColor="#021768"
+        android:textColor="@color/white"
+        android:backgroundTint="#032E63"
         android:textSize="20dp"
         android:textStyle="italic" />
 

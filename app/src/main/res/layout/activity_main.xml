@@ -4,21 +4,23 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="#FFFFFF"
-    android:backgroundTint="#3A55A0">
+    android:backgroundTint="#FEFEFE">
 
 
     <ImageView
         android:layout_width="310dp"
-        android:layout_height="0dp"
-        android:layout_weight="1"
+        android:layout_height="392dp"
         android:layout_marginStart="40dp"
-        android:src="@drawable/a" />
+        android:layout_weight="1"
+        android:src="@drawable/main_activity" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#3A55A0"
+        android:layout_marginBottom="40dp"
         android:orientation="vertical"
+        android:backgroundTint="@color/white"
         android:padding="16dp">
 
         <LinearLayout
@@ -33,8 +35,8 @@
                 android:layout_height="wrap_content"
                 android:paddingTop="8dp"
                 android:paddingBottom="16dp"
-                android:text="ᴊᴜꜱᴛ ᴛʜʀᴇᴇ ꜱɪᴍᴘʟᴇ ꜱᴛᴇᴘꜱ"
-                android:textColor="#FBFBFB"
+                android:text="𝐖𝐞 𝐰𝐢𝐥𝐥 𝐡𝐞𝐚𝐥 𝐲𝐨𝐮 !!"
+                android:textColor="#6EA345"
                 android:textSize="30dp"
                 android:textStyle="bold" />
         </LinearLayout>
@@ -43,6 +45,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
+            android:layout_gravity="center"
             android:orientation="vertical">
 
             <TextView
@@ -50,8 +53,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="70dp"
                 android:paddingBottom="8dp"
-                android:text="𝟏. 𝐒𝐞𝐥𝐞𝐜𝐭 𝐓𝐞𝐦𝐩𝐥𝐚𝐭𝐞 𝐃𝐞𝐬𝐢𝐠𝐧"
-                android:textColor="#F6F4F4"
+                android:text="𝟏.𝐒𝐞𝐚𝐫𝐜𝐡 𝐟𝐨𝐫 𝐲𝐨𝐮𝐫 𝐝𝐢𝐬𝐞𝐚𝐬𝐞"
+                android:textColor="#FAA42B"
                 android:textSize="20sp" />
 
             <TextView
@@ -59,30 +62,23 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="70dp"
                 android:paddingBottom="8dp"
-                android:text="𝟐. 𝐁𝐮𝐢𝐥𝐝 𝐲𝐨𝐮𝐫 𝐫𝐞𝐬𝐮𝐦𝐞"
-                android:textColor="#F6F6F6"
+                android:text="𝟐.𝐆𝐞𝐭 𝐡𝐞𝐚𝐥𝐞𝐝 𝐰𝐢𝐭𝐡 𝐮𝐬"
+                android:textColor="#FAA826"
                 android:textSize="20sp" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="70dp"
-                android:paddingBottom="16dp"
-                android:text="𝟑. 𝐒𝐚𝐯𝐞 - 𝐝𝐨𝐰𝐧𝐥𝐨𝐚𝐝"
-                android:textColor="#FAF6F6"
-                android:textSize="20sp" />
-        </LinearLayout>
+
 
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:backgroundTint="#032E63"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="#66A9B2"
             android:id="@+id/continuee"
             android:padding="16dp"
             android:text="Continue"
             android:textColor="#FFFFFF"
             android:textSize="20sp" />
-    </LinearLayout>
+          </LinearLayout>
+</LinearLayout>
 </LinearLayout>

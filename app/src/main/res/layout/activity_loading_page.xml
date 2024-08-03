@@ -36,7 +36,7 @@
 
     <TextView
         android:text="Loading..."
-        android:textColor="@color/black"
+        android:textColor="#7EE8FC"
         android:textSize="20sp"
         android:gravity="center"
         android:layout_marginTop="10dp"

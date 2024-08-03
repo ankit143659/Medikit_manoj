@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#3A55A0">
+    android:background="@color/white">
 
     <ImageView
         android:id="@+id/imageViewHeader"
@@ -13,7 +13,7 @@
         android:layout_marginTop="10dp"
         android:layout_alignParentTop="true"
         android:scaleType="fitXY"
-        android:src="@drawable/resumr"/>
+        android:src="@drawable/logo2"/>
 
     <TextView
         android:id="@+id/textViewRegister"
@@ -23,7 +23,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
         android:text="𝐑𝐄𝐆𝐈𝐒𝐓𝐄𝐑"
-        android:textColor="#FFFFFF"
+        android:textColor="#0480F7"
         android:textSize="32sp"
         android:textStyle="bold" />
 
@@ -34,7 +34,7 @@
         android:layout_below="@id/textViewRegister"
         android:layout_centerHorizontal="true"
         android:text="𝐂𝐫𝐞𝐚𝐭𝐞 𝐲𝐨𝐮𝐫 𝐚𝐜𝐜𝐨𝐮𝐧𝐭"
-        android:textColor="#FFFFFF"
+        android:textColor="#0480F7"
         android:textSize="16sp" />
 
     <EditText
@@ -117,7 +117,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
         android:text="By registering, you are agreeing to our\nTerms of use and Privacy Policy."
-        android:textColor="#B3B3B3"
+        android:textColor="@color/black"
         android:textSize="14sp"
         android:textAlignment="center" />
 
@@ -142,7 +142,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="5dp"
         android:text="Already have an account? "
-        android:textColor="#B3B3B3"
+        android:textColor="@color/black"
         android:textSize="14sp" />
 
     <TextView
@@ -154,6 +154,6 @@
         android:layout_marginTop="5dp"
         android:text="Login"
         android:onClick="loginn"
-        android:textColor="#FFFFFF"
+        android:textColor="#0480F7"
         android:textSize="14sp" />
 </RelativeLayout>

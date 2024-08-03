@@ -3,28 +3,28 @@
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
-    android:background="#3A55A0">
+    android:background="@color/white">
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="450dp"
-        android:src="@drawable/b" />
+        android:layout_height="430dp"
+        android:src="@drawable/medi3" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="𝙍𝙀𝙎𝙐𝙈𝙀 𝘽𝙐𝙄𝙇𝘿𝙀𝙍"
-        android:textSize="30dp"
+        android:text="𝐌𝐞𝐝𝐢𝐤𝐢𝐭"
+        android:textSize="40dp"
         android:gravity="center"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="𝐘𝐨𝐮 𝐋𝐚𝐧𝐝𝐞𝐝 𝐭𝐡𝐞 𝐉𝐨𝐛 \n𝐖𝐞 𝐡𝐞𝐥𝐩𝐞𝐝 𝐲𝐨𝐮 𝐜𝐫𝐞𝐚𝐭𝐞 𝐚 𝐰𝐢𝐧𝐧𝐢𝐧𝐠 𝐂𝐕, 𝐧𝐨𝐰 𝐜𝐞𝐥𝐞𝐛𝐫𝐚𝐭𝐞 𝐲𝐨𝐮𝐫 𝐬𝐮𝐜𝐜𝐞𝐬𝐬"
+        android:text="𝐅𝐢𝐧𝐝 𝐛𝐞𝐬𝐭 𝐩𝐥𝐚𝐜𝐞 𝐟𝐨𝐫 𝐭𝐫𝐞𝐚𝐭𝐦𝐞𝐧𝐭 \n𝐋𝐞𝐭𝐬 𝐬𝐭𝐚𝐫𝐭 𝐫𝐞𝐜𝐨𝐯𝐞𝐫𝐢𝐧𝐠 𝐭𝐡𝐞 𝐝𝐢𝐬𝐞𝐚𝐬𝐞 ..."
         android:textSize="18dp"
         android:layout_marginLeft="14dp"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:padding="20dp" />
     <Button
         android:layout_width="match_parent"
