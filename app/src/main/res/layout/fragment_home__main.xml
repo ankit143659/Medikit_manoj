@@ -10,65 +10,86 @@
 
     <TextView
         android:id="@+id/tv_my_recent_cvs"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="18dp"
-        android:layout_marginEnd="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
         android:layout_marginBottom="16dp"
-        android:text="My Recent CVs"
-        android:textColor="@android:color/black"
+        android:background="#095627"
+        android:text="MEDIKIT"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:textColor="@color/white"
         android:textSize="20sp" />
 
-
-    <Button
-        android:id="@+id/btn_create_cv"
-        android:layout_width="377dp"
-        android:layout_height="75dp"
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="162dp"
+        android:layout_height="159dp"
+        android:layout_marginTop="10dp"
         android:layout_below="@id/tv_my_recent_cvs"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="26dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="16dp"
-        android:drawablePadding="50dp"
-        android:text="CREATE CV"
-        android:backgroundTint="#09388A"
-        android:paddingLeft="100dp"
-        android:paddingRight="130dp"
-        android:drawableLeft="@drawable/baseline_add_box_24"
-        android:textColor="@color/white"
-        android:textSize="15dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/medi2" />
 
-        />
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="223dp"
-        android:layout_below="@id/btn_create_cv"
-        android:layout_marginTop="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+
         android:gravity="center"
+        android:padding="20dp"
+        android:layout_below="@id/img"
         android:orientation="vertical">
 
-        <ImageView
-            android:layout_width="190dp"
-            android:layout_height="150dp"
-            android:src="@drawable/main_bg" />
+        <LinearLayout
+            android:layout_width="364dp"
+            android:layout_height="103dp"
+            android:orientation="horizontal"
+            android:background="@drawable/linearbg"
+            android:padding="20dp"
+            android:gravity="start"
+            android:layout_marginTop="20dp">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:text="No recent CVs yet"
-            android:textColor="@android:color/black"
-            android:textSize="18sp" />
+            <ImageView
+                android:layout_width="54dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:src="@drawable/baseline_search_24" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:text="Start by creating your first CV!"
-            android:textColor="@android:color/darker_gray"
-            android:textSize="16sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Search For Doctor"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="364dp"
+            android:layout_height="103dp"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:background="@drawable/linearbg"
+            android:gravity="start"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:layout_width="54dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:src="@drawable/baseline_search_24" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Search For Medical Store"
+                android:textColor="@color/white"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="13dp"
+                android:textSize="25sp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
     </LinearLayout>
 
 </RelativeLayout>

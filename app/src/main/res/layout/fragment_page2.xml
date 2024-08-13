@@ -21,12 +21,12 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="𝟏.𝐒𝐞𝐚𝐫𝐜𝐡 𝐟𝐨𝐫 𝐲𝐨𝐮𝐫 𝐝𝐢𝐬𝐞𝐚𝐬𝐞 \n𝟐.𝐅𝐢𝐧𝐝 𝐛𝐞𝐬𝐭 𝐌𝐞𝐝𝐢𝐜𝐢𝐧𝐞𝐬 𝐭𝐨 𝐜𝐮𝐫𝐞 𝐢𝐭"
+        android:text="𝟏.  Search for doctor \n𝟐.  Find best medical store"
         android:textSize="18dp"
         android:layout_marginTop="10dp"
         android:layout_marginLeft="10dp"
         android:textColor="@color/black"
-        android:padding="20dp"/>
+        android:padding="10dp"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="39dp"

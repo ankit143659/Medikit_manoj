@@ -28,16 +28,16 @@ class LoginPage : AppCompatActivity() {
         login.setOnClickListener{
             val username=Username.text.toString()
             val password = Password.text.toString()
-            if(username!=user || password!=pass ){
+            /*if(username!=user || password!=pass ){
                 usernotexit.setText("* Invalid username or password !!")
                 Username.setText("")
                 Password.setText("")
             }
-            else{
+            else{*/
                 Toast.makeText(this, "Succesfully Login", Toast.LENGTH_SHORT).show()
                 val I= Intent(this,ViewPager::class.java)
                 startActivity(I)
-            }
+            //}
 
         }
         regis.setOnClickListener{

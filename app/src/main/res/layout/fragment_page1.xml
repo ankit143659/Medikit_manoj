@@ -22,8 +22,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:padding="20dp"
-        android:text="𝐂𝐮𝐫𝐞 𝐲𝐨𝐮𝐫 𝐝𝐢𝐬𝐞𝐚𝐬𝐞 𝐢𝐧 𝐣𝐮𝐬𝐭 𝐚 𝐦𝐢𝐧𝐮𝐭𝐞𝐬"
+        android:padding="10dp"
+        android:text="Find nearest doctor and medical store"
         android:textColor="@color/black"
         android:textSize="22dp" />
 

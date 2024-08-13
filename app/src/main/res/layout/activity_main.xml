@@ -53,7 +53,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="70dp"
                 android:paddingBottom="8dp"
-                android:text="𝟏.𝐒𝐞𝐚𝐫𝐜𝐡 𝐟𝐨𝐫 𝐲𝐨𝐮𝐫 𝐝𝐢𝐬𝐞𝐚𝐬𝐞"
+                android:text="𝟏.Search for doctor"
                 android:textColor="#FAA42B"
                 android:textSize="20sp" />
 
@@ -62,7 +62,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="70dp"
                 android:paddingBottom="8dp"
-                android:text="𝟐.𝐆𝐞𝐭 𝐡𝐞𝐚𝐥𝐞𝐝 𝐰𝐢𝐭𝐡 𝐮𝐬"
+                android:text="𝟐.Find nearest medical store"
                 android:textColor="#FAA826"
                 android:textSize="20sp" />
 
