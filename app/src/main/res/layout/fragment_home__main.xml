@@ -22,12 +22,12 @@
 
     <ImageView
         android:id="@+id/img"
-        android:layout_width="162dp"
-        android:layout_height="159dp"
-        android:layout_marginTop="10dp"
+        android:layout_width="187dp"
+        android:layout_height="174dp"
         android:layout_below="@id/tv_my_recent_cvs"
         android:layout_centerHorizontal="true"
-        android:src="@drawable/medi2" />
+        android:layout_marginTop="10dp"
+        android:src="@drawable/medilogo" />
 
 
     <LinearLayout
@@ -42,7 +42,7 @@
 
         <LinearLayout
             android:layout_width="364dp"
-            android:layout_height="103dp"
+            android:layout_height="90dp"
             android:orientation="horizontal"
             android:background="@drawable/linearbg"
             android:padding="20dp"
@@ -56,6 +56,7 @@
                 android:src="@drawable/baseline_search_24" />
 
             <TextView
+                android:id="@+id/d1"
                 android:layout_width="wrap_content"
                 android:text="Search For Doctor"
                 android:layout_marginTop="10dp"
@@ -67,7 +68,7 @@
 
         <LinearLayout
             android:layout_width="364dp"
-            android:layout_height="103dp"
+            android:layout_height="90dp"
             android:orientation="horizontal"
             android:padding="10dp"
             android:background="@drawable/linearbg"
@@ -81,6 +82,7 @@
                 android:src="@drawable/baseline_search_24" />
 
             <TextView
+                android:id="@+id/ms1"
                 android:layout_width="wrap_content"
                 android:text="Search For Medical Store"
                 android:textColor="@color/white"
