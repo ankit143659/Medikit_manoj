@@ -7,6 +7,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
+import android.widget.LinearLayout
 import android.widget.TextView
 
 
@@ -18,13 +19,12 @@ class home_Main : Fragment(R.layout.fragment_home__main) {
         savedInstanceState: Bundle?
     ): View? {
 
-        val view :View= inflater.inflate(R.layout.fragment_home__main, container, false)
+        val view : View = inflater.inflate(R.layout.fragment_home__main, container, false)
 
-        val manoj : TextView = view.findViewById(R.id.d1)
+        val manoj : LinearLayout = view.findViewById(R.id.d1)
         manoj.setOnClickListener {
-            val intent = Intent(activity, Doctor_page::class.java)
+            val intent = Intent(requireContext(), Doctor_form::class.java)
             startActivity(intent)
-            activity?.finish()
         }
 
         return view
