@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    app:toolContext=".Doctor_form"
+    app:toolContext=".medical_form"
     android:background="@color/white">
 
 
@@ -20,7 +20,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="center"
-           android:layout_marginTop="10dp"
+            android:layout_marginTop="10dp"
             android:gravity="center"
             android:text="Basic detais of user"
             android:textColor="@color/white"
@@ -47,12 +47,12 @@
                 android:layout_height="35dp"
                 android:layout_marginLeft="2dp"
                 android:gravity="center"
-                android:text="Full name :"
+                android:text="𝐅𝐮𝐥𝐥 𝐧𝐚𝐦𝐞:"
                 android:textColor="@color/black"
                 android:textSize="23sp" />
 
             <TextView
-                android:id="@+id/name"
+                android:id="@+id/username"
                 android:layout_width="190dp"
                 android:layout_height="45dp"
                 android:layout_marginLeft="20dp"
@@ -83,7 +83,7 @@
                 android:textSize="23sp" />
 
             <TextView
-                android:id="@+id/email"
+                android:id="@+id/user_id_email"
                 android:layout_width="193dp"
                 android:layout_height="45dp"
                 android:layout_marginLeft="25dp"
@@ -119,7 +119,7 @@
                 android:textSize="23sp" />
 
             <TextView
-                android:id="@+id/phone"
+                android:id="@+id/user_phone"
                 android:layout_width="193dp"
                 android:layout_height="45dp"
                 android:layout_marginLeft="20dp"
@@ -157,7 +157,7 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/locat"
+                android:id="@+id/user_location"
                 android:layout_width="190dp"
                 android:layout_height="45dp"
                 android:layout_marginLeft="20dp"
@@ -172,7 +172,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/search"
+            android:id="@+id/s1"
             android:layout_below="@id/l4"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="80dp"
