@@ -13,13 +13,10 @@
         android:theme="@style/Theme.MinorProject_ResumeBuilder"
         tools:targetApi="31">
         <activity
+            android:name=".doctor"
+            android:exported="false" />
+        <activity
             android:name=".Medical_form"
-            android:exported="false" />
-        <activity
-            android:name=".Medical_page"
-            android:exported="false" />
-        <activity
-            android:name=".Doctor_form"
             android:exported="false" />
         <activity
             android:name=".Doctor_page"

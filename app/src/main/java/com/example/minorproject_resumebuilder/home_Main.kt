@@ -20,11 +20,11 @@ class home_Main : Fragment(R.layout.fragment_home__main) {
     ): View? {
 
         val view : View = inflater.inflate(R.layout.fragment_home__main, container, false)
+       val dr=view.findViewById<LinearLayout>(R.id.d1);
 
-        val manoj : LinearLayout = view.findViewById(R.id.d1)
-        manoj.setOnClickListener {
-            val intent = Intent(requireContext(), Doctor_form::class.java)
-            startActivity(intent)
+        dr.setOnClickListener{
+            val intent = Intent(requireContext(), doctor::class.java)
+             requireContext().startActivity(intent)
         }
 
         return view
