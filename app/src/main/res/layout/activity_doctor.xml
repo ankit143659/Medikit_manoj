@@ -171,9 +171,10 @@
 
         <Button
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="40dp"
             android:id="@+id/search"
             android:layout_below="@id/l4"
+            android:background="@drawable/profile_shape"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="80dp"
             android:text="Serach" />

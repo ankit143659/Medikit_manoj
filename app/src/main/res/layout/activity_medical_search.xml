@@ -10,9 +10,9 @@
     <EditText
         android:layout_width="354dp"
         android:layout_height="58dp"
-        android:id="@+id/searchdr"
+        android:id="@+id/medical_search"
         android:paddingLeft="20dp"
-        android:hint="Search For Doctor"
+        android:hint="Search For Medical Store"
         android:textSize="20dp"
         android:layout_centerHorizontal="true"
         android:drawablePadding="10dp"
