@@ -22,7 +22,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
             android:gravity="center"
-            android:text="Basic detais of user"
+            android:text="Basic details of user"
             android:textColor="@color/white"
             android:textSize="30dp" />
 

@@ -19,17 +19,23 @@ class home_Main : Fragment(R.layout.fragment_home__main) {
         savedInstanceState: Bundle?
     ): View? {
 
-        val view : View = inflater.inflate(R.layout.fragment_home__main, container, false)
-       val dr=view.findViewById<LinearLayout>(R.id.d1);
+        val view: View = inflater.inflate(R.layout.fragment_home__main, container, false)
+        val dr = view.findViewById<LinearLayout>(R.id.d1);
 
-        dr.setOnClickListener{
+        dr.setOnClickListener {
             val intent = Intent(requireContext(), doctor::class.java)
-             requireContext().startActivity(intent)
+            requireContext().startActivity(intent)
         }
+        val medical = view.findViewById<LinearLayout>(R.id.store);
 
+        medical.setOnClickListener {
+            val i = Intent(requireContext(), Medical_form::class.java)
+            requireContext().startActivity(i)
+
+        }
         return view
-    }
 
+    }
 }
 
 

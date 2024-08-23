@@ -18,8 +18,7 @@
         android:layout_centerHorizontal="true"
         android:maxHeight="40dp"
         android:maxWidth="40dp"
-
-        android:src="@drawable/logo" />
+        android:src="@drawable/medilogo"/>
 
     <ProgressBar
         android:layout_width="80dp"
@@ -36,10 +35,10 @@
 
     <TextView
         android:text="Loading..."
-        android:textColor="#7EE8FC"
+        android:textColor="#E03F3D"
         android:textSize="20sp"
         android:gravity="center"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="20dp"
         android:layout_centerHorizontal="true"
         android:layout_below="@id/pg"
         android:layout_width="match_parent"
