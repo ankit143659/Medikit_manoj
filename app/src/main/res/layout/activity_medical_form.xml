@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:tool="http://schemas.android.com/tools"
-    android:orientation="vertical"
-    tool:context=".Medical_form"
-    android:background="@color/white">
-
-
+    tools:context=".MedicalForm">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -23,7 +21,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
             android:gravity="center"
-            android:text="Basic detais of user"
+            android:text="Basic details of user"
             android:textColor="@color/white"
             android:textSize="30dp" />
 
@@ -48,12 +46,12 @@
                 android:layout_height="35dp"
                 android:layout_marginLeft="2dp"
                 android:gravity="center"
-                android:text="𝐅𝐮𝐥𝐥 𝐧𝐚𝐦𝐞:"
+                android:text="Full name :"
                 android:textColor="@color/black"
                 android:textSize="23sp" />
 
-            <TextView
-                android:id="@+id/username"
+            <EditText
+                android:id="@+id/name"
                 android:layout_width="190dp"
                 android:layout_height="45dp"
                 android:layout_marginLeft="20dp"
@@ -61,7 +59,8 @@
                 android:gravity="center"
                 android:textColor="@color/black"
                 android:textSize="18sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
         </LinearLayout>
 
@@ -83,8 +82,8 @@
                 android:textColor="@color/black"
                 android:textSize="23sp" />
 
-            <TextView
-                android:id="@+id/user_id_email"
+            <EditText
+                android:id="@+id/email"
                 android:layout_width="193dp"
                 android:layout_height="45dp"
                 android:layout_marginLeft="25dp"
@@ -95,9 +94,10 @@
                 android:textColor="@color/black"
 
                 android:textSize="18sp"
-                android:textStyle="bold">
+                android:textStyle="bold"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck">
 
-            </TextView>
+            </EditText>
 
         </LinearLayout>
 
@@ -119,8 +119,8 @@
                 android:textColor="@color/black"
                 android:textSize="23sp" />
 
-            <TextView
-                android:id="@+id/user_phone"
+            <EditText
+                android:id="@+id/phone"
                 android:layout_width="193dp"
                 android:layout_height="45dp"
                 android:layout_marginLeft="20dp"
@@ -131,10 +131,11 @@
                 android:textColor="@color/black"
 
                 android:textSize="18sp"
-                android:textStyle="bold">
+                android:textStyle="bold"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck">
 
 
-            </TextView>
+            </EditText>
 
         </LinearLayout>
 
@@ -157,8 +158,8 @@
                 android:textSize="23dp"
                 android:textStyle="bold" />
 
-            <TextView
-                android:id="@+id/user_location"
+            <EditText
+                android:id="@+id/locat"
                 android:layout_width="190dp"
                 android:layout_height="45dp"
                 android:layout_marginLeft="20dp"
@@ -166,21 +167,21 @@
                 android:gravity="center"
                 android:textColor="@color/black"
                 android:textSize="18sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
         </LinearLayout>
 
         <Button
-            android:layout_width="140dp"
+            android:id="@+id/medical"
+            android:layout_width="wrap_content"
             android:layout_height="40dp"
-            android:id="@+id/medical_search"
             android:layout_below="@id/l4"
-            android:background="@drawable/profile_shape"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="80dp"
-            android:text="Serach" />
+            android:background="@drawable/profile_shape"
+            android:text="Serach"
+            tools:ignore="TouchTargetSizeCheck" />
 
     </RelativeLayout>
-
-
 </LinearLayout>

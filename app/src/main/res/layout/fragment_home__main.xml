@@ -68,7 +68,7 @@
             android:layout_width="364dp"
             android:layout_height="90dp"
             android:orientation="horizontal"
-            android:id="@+id/store"
+            android:id="@+id/aa"
             android:padding="10dp"
             android:background="@drawable/linearbg"
             android:gravity="start"
@@ -82,13 +82,13 @@
 
             <TextView
                 android:id="@+id/medical_search"
-                android:layout_width="wrap_content"
+                android:layout_width="221dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="10dp"
                 android:text="Search For Medical Store"
                 android:textColor="@color/white"
-                android:layout_marginTop="10dp"
-                android:layout_marginLeft="13dp"
-                android:textSize="25sp"
-                android:layout_height="wrap_content" />
+                android:textSize="25sp" />
         </LinearLayout>
 
     </LinearLayout>
